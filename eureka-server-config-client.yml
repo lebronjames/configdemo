@@ -1,12 +1,12 @@
 spring:
   profiles:
     active:
-      - dev
+    - dev
 ---
 spring:
   profiles: dev
   application:
-    name: eureka
+    name: eureka-server-config-client
 
 server:
   port: 8761
