@@ -5,15 +5,15 @@ spring:
 ---
 spring:
   application:
-    name: config-test-dev
+    name: config-test-dev1
   profiles: dev
 ---
 spring:
   application:
-    name: config-test-default
+    name: config-test-default1
   profiles: default
 ---
 spring:
   application:
-    name: config-test-prod
+    name: config-test-prod1
   profiles: prod
