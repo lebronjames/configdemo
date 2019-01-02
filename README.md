@@ -1,1 +1,1 @@
-# configdemo
+SpringCloud config demo
