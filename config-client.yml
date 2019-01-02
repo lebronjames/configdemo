@@ -7,7 +7,7 @@ server:
   port: 8001
 spring:
   application:
-    name: config-test-dev
+    name: config-test-dev333
   profiles: dev
 eureka:
   client:
