@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  application:
+    name: config-test-dev
+  profiles: dev
+---
+spring:
+  application:
+    name: config-test-default
+  profiles: default
+---
+spring:
+  application:
+    name: config-test-prod
+  profiles: prod
